@@ -1,0 +1,104 @@
+# ArcHub---Smart-value-router-MVP-on-Arc.-A-simple-web-app-that-routes-transaction-accross-chain..
+ArcHub
+Build a complete Wallet Hub module for ARC Nexus.
+
+Tech Stack:
+
+- Next.js 15 App Router
+- TypeScript
+- Tailwind CSS
+- Wagmi
+- Viem
+- RainbowKit
+- React Query
+
+Networks:
+
+1. Arc Testnet
+   Chain ID: 5042002
+   RPC: https://rpc.testnet.arc.network
+
+2. Ethereum Sepolia
+   Chain ID: 11155111
+
+3. Arbitrum Sepolia
+   Chain ID: 421614
+
+Features:
+
+1. Connect Wallet
+
+Support:
+
+- MetaMask
+- WalletConnect
+- Coinbase Wallet
+- Rabby Wallet
+
+2. Wallet Card
+
+Display:
+
+- Wallet Address
+- Copy Button
+- Network Name
+- Connection Status
+
+3. Network Switcher
+
+Dropdown:
+
+- Arc Testnet
+- Ethereum Sepolia
+- Arbitrum Sepolia
+
+Functions:
+
+- Switch Network
+- Add Network if Missing
+- Unsupported Network Warning
+
+4. Dashboard Cards
+
+Display:
+
+- Current Network
+- Wallet Address
+- Native Balance
+
+5. Components
+
+components/
+WalletConnect.tsx
+NetworkSwitcher.tsx
+WalletCard.tsx
+
+6. Config
+
+lib/wagmi.ts
+lib/chains.ts
+
+7. UI
+
+Modern Glassmorphism
+
+Dark Theme
+
+Gradient Cards
+
+Responsive
+
+8. Output
+
+Generate complete source code for:
+
+package.json
+app/layout.tsx
+app/page.tsx
+components/*
+lib/*
+
+Ready for:
+
+npm install
+npm run dev
